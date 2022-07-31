@@ -61,7 +61,6 @@ analysis_date = dt.datetime(2021,6,1)
 #Step2
 #cltv data structure
 
-#Bu kısmı sor tekrardan!!!!
 cltv_df = pd.DataFrame()
 cltv_df["customer_id"] = df["master_id"]
 cltv_df["recency_cltv_weekly"] = ((df["last_order_date"] - df["first_order_date"]).dt.days) / 7 #weekly

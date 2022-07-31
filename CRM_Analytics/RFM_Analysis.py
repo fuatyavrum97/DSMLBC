@@ -37,7 +37,6 @@ df.sort_values("customer_value_total",ascending=False).head(10)
 #adım7
 df.sort_values("order_num_total",ascending=False).head(10)
 
-#Fonksiyonlaştırma ??
 
 #Görev 2
 
